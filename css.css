@@ -1,0 +1,103 @@
+h3
+{
+   font-size: 40px;
+   color: whitesmoke;
+    text-align: center;
+   animation: change 2s  infinite normal;
+
+}
+@keyframes change {
+   20%{color: red;}
+   40%{color: green;}
+   60%{color: magenta;}
+   80%{color: orange;}
+    
+}
+
+.photo{
+    height: 300px;
+    width: 300px;
+    border: 1px 1px green;
+    border-radius: 150px;
+    box-shadow: 6px 6px 5px black;
+    overflow: hidden;
+}
+.bio{
+    margin-left: 60px;
+    font-weight: bold;
+    color: white;
+}
+.personal{
+    height:300px;
+    width:600px;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 500px;
+    margin-top: -400px;
+    font-weight: bold;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.main{
+    opacity: 1;
+    margin-top: -800px;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.links{
+    height:20px;
+    width: 400px;
+    margin-left: 600px;
+    margin-top: -150px;
+    
+    
+}
+.ig{
+height: 50px;
+width: 50px;
+margin-left: 20px;
+border-radius: 50%;
+}
+.ige{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+    }
+.number{
+    display: none;
+}
+.num{
+    margin-left: 150px;
+    margin-top: -50px;
+}
+.num:hover > .number{
+ display: block;
+ margin-left: 50px;
+ margin-top: -70px;
+ color: white;
+ font-weight: bold;
+ 
+}
+.btn{
+    margin-left: 840px;
+    color: black;
+    font-weight: bold;
+    background-color: darkgray;
+    border-radius: 3px;
+    height: 30px;
+
+
+}
+.btn:hover{
+    box-shadow: 2px 2px 6px 3px white;
+}
